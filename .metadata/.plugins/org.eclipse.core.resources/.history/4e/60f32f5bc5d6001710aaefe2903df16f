@@ -15,8 +15,8 @@ public class MoreVariablesAndPrinting
 		myHair = "blond";
 		
 		System.out.println( "Let's talk about " + myName + " .");
-		System.out.println( "He's " + myHeight + " inches (or \"186.43cm\") tall.");
-		System.out.println( "He's " + myWeight + " pounds (or  \"68.946kg\") heavy.");
+		System.out.println( "He's " + myHeight + " inches (or \"186.43\" tall.");
+		System.out.println( "He's " + myWeight + " pounds (or  \"68.946\" heavy.");
 		System.out.println( "Actually, that's not too heavy.");
 		System.out.println( "He's got " + myEyes + " eyes and " + myHair + " hair.");
 		System.out.println( "His teeth are usually " + myTeeth + " because he brushes twice a day.");
