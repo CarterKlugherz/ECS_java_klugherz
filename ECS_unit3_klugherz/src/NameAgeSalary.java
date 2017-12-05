@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Agein5 
+public class NameAgeSalary 
 {
 	public static void main( String[] args )
 	{
@@ -8,7 +8,7 @@ public class Agein5
 		
 		String name;
 		int age;
-		double weight;
+		double salary;
 		
 		System.out.println("Hello. What is your name?" );
 		name = keyboard.next();
@@ -16,9 +16,11 @@ public class Agein5
 		System.out.println("Hi, Carter! How old are you?" );
 		age = keyboard.nextInt();
 		
-		System.out.println("Did you know that in five years you will be " + (age+5) + " years old? And five years ago you were " + (age-5) + "! Imagine that!" );
+		System.out.println("So you are 17? I guess that's not too old, Carter. How much do you make per hour?" );
+		salary = keyboard.nextInt();
+
+		System.out.println("Wow, 1500 is alot for your age!" );
 		
 		keyboard.close();
 	}
 }
-
