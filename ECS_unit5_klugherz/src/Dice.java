@@ -17,6 +17,8 @@ public class Dice
 		System.out.println("Roll #1:" + firstDie + "");
 		System.out.println("Roll #1:" + secondDie + "");
 		System.out.println("The total is" + totalRoll +"");
+		
+		keyboard.close();
 	}
 }
 
