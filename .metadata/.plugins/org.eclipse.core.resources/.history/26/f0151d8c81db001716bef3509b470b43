@@ -12,7 +12,6 @@ public class HiLow
 		
 		System.out.println("I am thinking of a number between 1-100! Try to guess it.");
 		y=keyboard.nextInt();
-		
 		if (x>y) 
     	{
 			System.out.println("Sorry, you are too low, I was thinking of " + x);
@@ -25,8 +24,6 @@ public class HiLow
 		{
 			System.out.println("You guessed it! What are the odds?!?"); 
 		}			
-		
-		keyboard.close();
 	}
 }
 
