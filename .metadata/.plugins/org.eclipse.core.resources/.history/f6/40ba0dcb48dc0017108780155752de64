@@ -12,6 +12,7 @@ public class Dice
         int totalRoll = firstDie + secondDie;          
         
 		System.out.println("HERE COMES THE DICE!");
+		keyboard.nextInt();
 		
 		System.out.println("Roll #1:" + firstDie + "");
 		System.out.println("Roll #1:" + secondDie + "");
