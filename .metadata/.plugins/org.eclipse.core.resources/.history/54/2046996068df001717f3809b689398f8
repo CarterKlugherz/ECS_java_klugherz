@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.Random;
 
 public class DoubleDice 
@@ -5,8 +6,8 @@ public class DoubleDice
        
        public static void main(String[] args) 
        {
-    	
-    	   Random r = new Random();
+    	   Scanner keyboard = new Scanner(System.in);
+    	   Random rng = new Random();
     	  
     	   		int x = 1 + r.nextInt(6),y=1+r.nextInt(6);
     	   		
