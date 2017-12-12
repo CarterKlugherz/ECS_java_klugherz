@@ -5,7 +5,7 @@ public class KeepGuessingCounter
 	public static void main( String[] args)
 	{
 		Scanner keyboard = new Scanner(System.in);
-		int guess = 3, count = 1;
+		int guess = 3, count = 0;
 		
 		System.out.println("I have chosen a number between 1 and 10. Try to guess it.");
 		int entry = keyboard.nextInt();
@@ -17,6 +17,6 @@ public class KeepGuessingCounter
 			count++;
 		}
 		System.out.println("\nThat's right! You're a good guesser.");
-		System.out.println("\nIt only took you " + count + " tries.");
+		System.out.println("\nIt only took you " + entry + " tries.");
 	}
 }
