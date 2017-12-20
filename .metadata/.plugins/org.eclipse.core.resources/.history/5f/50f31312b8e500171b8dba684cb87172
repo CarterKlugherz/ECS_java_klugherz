@@ -58,7 +58,7 @@ public class AreaCalculatorRepeat
 					
 		} while ( choice != 5 );
 		
-		System.out.println( "GoodBye! ! !" );
+		System.out.println( "GoodBye" );
 	}
  
 	public static double area_circle( int radius ) 
