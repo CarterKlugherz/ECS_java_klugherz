@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Calculator 
+{
+	public static void main (String [] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		int num1=0;
+		int num2=0;
+		String operator;
+		double answer = 0.0;
+		
+		System.out.println("This is a calculator!");
+		System.out.println("Insert your calculation as ### operator ###.");
+		
+		System.out.println("Please enter the first number");
+		num1 = keyboard.nextInt();
+		System.out.println("Please enter the second number");
+		num2 = keyboard.nextInt();
+		System.out.println(What operation are you using?);
+		operator = keyboard.next();
+		
+	
+		System.out.println(num1 + " " + operator + " + num2 + " = " + answer);
+	}
+}
+
